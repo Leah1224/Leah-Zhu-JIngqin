@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leah Zhu | 个人作品集</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="logo">Portfolio</div>
+        <div class="nav-links">
+            <a href="#home">首页</a>
+            <a href="#about">关于我</a>
+            <a href="#portfolio">作品集</a>
+            <a href="#contact">联系</a>
+        </div>
+    </nav>
+
+    <!-- 首页横幅 -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>你好，我是<span class="highlight">Leah Zhu</span></h1>
+            <p>创意设计师 & 前端开发者</p>
+            <button class="cta-button" onclick="document.getElementById('portfolio').scrollIntoView({behavior: 'smooth'})">
+                查看作品 →
+            </button>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="about-section">
+        <h2>关于我</h2>
+        <div class="about-content">
+            <div class="profile-image">
+                <div class="image-placeholder">👤</div>
+            </div>
+            <div class="profile-info">
+                <p>我是一名热爱设计与开发的前端工程师，专注于创造美观且实用的用户体验。</p>
+                <p>拥有多年的工作经验，擅长HTML/CSS/JavaScript以及现代前端框架。</p>
+                <div class="skills">
+                    <h3>技能专长</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">UI/UX设计</span>
+                        <span class="skill-tag">响应式设计</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 作品集 -->
+    <section id="portfolio" class="portfolio-section">
+        <h2>我的作品</h2>
+        <div class="portfolio-grid" id="portfolio-container">
+            <!-- 作品会通过 JavaScript 动态加载 -->
+        </div>
+    </section>
+
+    <!-- 联系我 -->
+    <section id="contact" class="contact-section">
+        <h2>联系我</h2>
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+            <input type="text" placeholder="你的名字" required>
+            <input type="email" placeholder="邮箱地址" required>
+            <textarea placeholder="留言内容" rows="5" required></textarea>
+            <button type="submit" class="submit-button">发送消息</button>
+        </form>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <p>© 2026 Leah Zhu | 用 ❤️ 构建</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
