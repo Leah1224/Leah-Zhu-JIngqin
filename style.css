@@ -238,6 +238,34 @@ body {
     font-size: 1.1rem;
 }
 
+.intro-text {
+    line-height: 1.8;
+    margin-bottom: 1.2rem;
+    text-align: justify;
+}
+
+.personality {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #d4edff, #e6f7ff);
+    border-radius: 15px;
+    border-left: 4px solid #5dade2;
+}
+
+.personality h3 {
+    color: #5dade2;
+    margin-bottom: 1rem;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #5dade2;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    border-left: 3px solid #7fb3d5;
+}
+
 .skills h3 {
     color: #5dade2;
     margin: 1.5rem 0 1rem;

@@ -2,45 +2,59 @@
 const portfolioItems = [
     {
         id: 1,
-        title: '电商网站设计',
-        description: '一个现代化的电商平台界面设计，注重用户体验和视觉美感。',
-        emoji: '🛍️',
-        tags: ['UI设计', '前端开发']
+        title: '城市光影',
+        description: '一系列城市夜景摄影作品，捕捉都市的光与影、动与静。通过长曝光技术展现城市的另一面。',
+        emoji: '📷',
+        tags: ['摄影', '后期处理']
     },
     {
         id: 2,
-        title: '移动应用原型',
-        description: '为某健身应用设计的移动端原型，简洁直观的操作流程。',
-        emoji: '📱',
-        tags: ['移动设计', '原型制作']
+        title: 'AI生成艺术系列',
+        description: '利用Midjourney和Stable Diffusion创作的超现实主义数字艺术作品，探索人工智能的创造力边界。',
+        emoji: '🎨',
+        tags: ['AI设计', '生成艺术']
     },
     {
         id: 3,
-        title: '品牌视觉系统',
-        description: '为初创公司打造的完整品牌视觉识别系统。',
-        emoji: '🎨',
-        tags: ['品牌设计', 'VI设计']
+        title: '品牌视觉设计',
+        description: '为校园创业团队设计的完整品牌视觉系统，包括Logo、海报、名片等物料设计。',
+        emoji: '✨',
+        tags: ['PS设计', '品牌VI']
     },
     {
         id: 4,
-        title: '数据可视化仪表板',
-        description: '企业级数据分析平台的前端实现，支持多种图表展示。',
-        emoji: '📊',
-        tags: ['数据可视化', '前端开发']
+        title: '动态影像短片',
+        description: '使用After Effects制作的抽象动画短片，结合音乐节奏展现视觉韵律美。',
+        emoji: '🎬',
+        tags: ['AE视频', '动态设计']
     },
     {
         id: 5,
-        title: '社交媒体应用',
-        description: '社交网络平台的概念设计，强调用户互动和内容分享。',
-        emoji: '💬',
-        tags: ['社交应用', '用户体验']
+        title: '互动装置艺术',
+        description: '基于TouchDesigner开发的实时交互装置，观众的动作会影响视觉效果的呈现。',
+        emoji: '💻',
+        tags: ['TD交互', '新媒体艺术']
     },
     {
         id: 6,
-        title: '在线教育平台',
-        description: '在线学习平台的界面设计，提供优质的学习体验。',
-        emoji: '📚',
-        tags: ['教育科技', '界面设计']
+        title: '智能灯光系统',
+        description: '使用Arduino控制的交互式灯光装置，根据环境声音和人体感应产生不同的光效变化。',
+        emoji: '🔧',
+        tags: ['Arduino', '硬件编程']
+    },
+    {
+        id: 7,
+        title: '创意编程实验',
+        description: 'Processing和p5.js创作的生成式艺术作品，探索算法与美学的结合。',
+        emoji: '🎯',
+        tags: ['创意编程', '生成艺术']
+    },
+    {
+        id: 8,
+        title: '虚拟现实体验',
+        description: 'Unity开发的VR艺术展览空间，让观众沉浸式体验数字艺术作品。',
+        emoji: '🌐',
+        tags: ['VR开发', '交互设计']
     }
 ];
 
